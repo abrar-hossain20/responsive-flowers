@@ -152,7 +152,7 @@
 
 /* plants lover section */
 
-.plantsLoverSection{
+.plantsLoverSection {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -163,10 +163,42 @@
 .plantsLoverContent {
   width: 50%;
 }
-#loverH1{
+#loverH1 {
   justify-content: left;
   margin-bottom: 20px;
 }
+
+/* Join section */
+.join {
+  background-image: url("../assets/news-letter-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 100px 0;
+}
+.joinContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 200px 0;
+}
+.joinContent h1 {
+  color: rgb(255, 255, 255);
+  margin-bottom: 25px;
+}
+.joinForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#emailInput{
+  padding: 20px 40px;
+  font-size: 1.25rem;
+  border: none;
+  width: 40.25rem;
+}
+
 /* responsive layout */
 @media screen and (max-width: 576px) {
   /* common styles */
@@ -236,7 +268,7 @@
     gap: 20px;
     margin: 0 16px;
   }
-  .plantsLoverSection img{
+  .plantsLoverSection img {
     width: 100%;
   }
   .plantsLoverContent {
@@ -247,7 +279,7 @@
     font-size: 1.5rem;
     font-weight: 700;
   }
-  #plantLoverDes{
+  #plantLoverDes {
     margin: 1rem;
   }
 }
