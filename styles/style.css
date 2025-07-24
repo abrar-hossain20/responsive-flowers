@@ -51,6 +51,13 @@
   border: none;
   padding: 20px 80px;
   font-weight: 600;
+  font-size: 1.25rem;
+}
+.btn:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(233, 90, 8);
+  border: 1px solid rgb(233, 90, 8);
+  cursor: pointer;
 }
 
 /* navbar */
@@ -128,11 +135,10 @@
   flex-direction: column;
   align-items: center;
   gap: 10px;
-  margin: 20px;
 }
-/* .plantCard img {
+.plantCard img {
   width: 100%;
-} */
+}
 .plantCard .title {
   font-size: 1.25rem;
   font-weight: 500;
@@ -144,8 +150,35 @@
   margin-bottom: 20px;
 }
 
+
+.plantsLoverSection{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin-top: 200px;
+  margin-bottom: 100px;
+}
+.plantsLoverContent {
+  width: 50%;
+}
+#loverH1{
+  justify-content: left;
+  margin-bottom: 20px;
+}
 /* responsive layout */
 @media screen and (max-width: 576px) {
+  /* common styles */
+  .btn {
+    padding: 10px 40px;
+    font-size: 1rem;
+  }
+  .btn:hover {
+    background: rgb(255, 255, 255);
+    color: rgb(233, 90, 8);
+    border: 1px solid rgb(233, 90, 8);
+    cursor: pointer;
+  }
   /* nav section */
   .navbar {
     margin: 20px 16px;
@@ -166,7 +199,7 @@
   }
   .banner_content {
     width: 100%;
-    text-align: center;
+    text-align: left;
   }
   .tittleFreshFlowers {
     font-size: 1.5rem;
@@ -178,11 +211,6 @@
   }
 
   /* our plants section */
-
-  .btn {
-    padding: 10px 40px;
-    font-size: 1rem;
-  }
 
   .plantCards {
     grid-template-columns: repeat(2, 1fr);
