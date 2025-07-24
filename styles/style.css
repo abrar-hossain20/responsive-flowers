@@ -242,9 +242,9 @@
     "flower1 flower2 flower2"
     "flower3 flower2 flower2";
   gap: 20px;
-  margin: 100px 0;
+  margin: 50px 0;
 }
-#dealsDes{
+#dealsDes {
   text-align: center;
   margin-top: 20px;
 }
@@ -312,6 +312,7 @@
   font-weight: 700;
   font-size: 1.75rem;
   margin-top: 10px;
+
 }
 
 /* responsive layout */
@@ -440,5 +441,30 @@
   .socialContainer {
     width: 100%;
     gap: 20px;
+  }
+
+  /* latest deals section */
+
+  .latestDeals {
+    margin: 100px 16px;
+  }
+  .dealCards {
+    grid-template-areas:
+      "flower1"
+      "flower2"
+      "flower3";
+    gap: 20px;
+  }
+  .flower2 {
+    height: 250px;
+  }
+  .flowerlinkLarge {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-top: 0;
+  }
+  .flowerhLarge {
+    font-size: 1.25rem;
+    font-weight: 700;
   }
 }
