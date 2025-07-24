@@ -210,10 +210,9 @@
 }
 .footerDescription{
   width: 33%;
-
 }
 .footerLinks{
-  width: 33%;
+  width: 34%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
@@ -342,5 +341,26 @@
   }
 
   /* footer section */
-  
+  .footer {
+    margin: 0 16px;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+  }
+  .footerDescription{
+    width: 100%;
+  }
+  #footerDes{
+    margin: 0;
+    width: 100%;
+  }
+  .footerLinks{
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .socialContainer{
+    width: 100%;
+    gap: 20px;
+  }
+
 }
