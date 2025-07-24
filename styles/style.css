@@ -192,7 +192,7 @@
   align-items: center;
   justify-content: center;
 }
-#emailInput{
+#emailInput {
   padding: 20px 40px;
   font-size: 1.25rem;
   border: none;
@@ -281,5 +281,26 @@
   }
   #plantLoverDes {
     margin: 1rem;
+  }
+
+  /* join section */
+  .joinContent{
+    margin: 0 16px;
+  }
+
+  .joinContent h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  #emailInput {
+    font-size: 1.25rem;
+    border: none;
+    width: 80%;
+    padding: 10px 30px 10px 10px;
+    font-size: 1rem;
+  }
+  #inputBtn{
+    padding: 10px 20px;
   }
 }
