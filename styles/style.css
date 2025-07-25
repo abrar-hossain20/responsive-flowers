@@ -48,7 +48,7 @@
 .btn {
   background: rgb(233, 90, 8);
   color: rgb(255, 255, 255);
-  border: none;
+  border: 1px solid transparent;
   padding: 20px 80px;
   font-weight: 600;
   font-size: 1.25rem;
